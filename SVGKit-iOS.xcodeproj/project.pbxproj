@@ -282,6 +282,14 @@
 		32F206DC217324BB00427F24 /* SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */; };
 		4FD821F01AC69F6600E419D3 /* SVGSwitchElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD821EE1AC69F6600E419D3 /* SVGSwitchElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FD821F11AC69F6600E419D3 /* SVGSwitchElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD821EF1AC69F6600E419D3 /* SVGSwitchElement.m */; };
+		54F283C92C246B9D004B2E11 /* SVGKitFramework_WatchOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 54F283C82C246B9D004B2E11 /* SVGKitFramework_WatchOS.docc */; };
+		54F283CF2C246B9E004B2E11 /* SVGKitFramework_WatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F283C52C246B9D004B2E11 /* SVGKitFramework_WatchOS.framework */; };
+		54F283D42C246B9E004B2E11 /* SVGKitFramework_WatchOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F283D32C246B9E004B2E11 /* SVGKitFramework_WatchOSTests.m */; };
+		54F283D52C246B9E004B2E11 /* SVGKitFramework_WatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F283C72C246B9D004B2E11 /* SVGKitFramework_WatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F283DC2C246BC7004B2E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639634616148DEC00E58CCA /* CoreGraphics.framework */; };
+		54F283DD2C246BD0004B2E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639619116145D0400E58CCA /* Foundation.framework */; };
+		54F283DE2C246BE7004B2E11 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 825CDACC1BDA4D20003C1C12 /* libxml2.tbd */; };
+		54F283E02C246C62004B2E11 /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825CDAAF1BDA4BC0003C1C12 /* SVGKit.framework */; };
 		55452BF719EC68A200B75A30 /* libSVGKit-iOS.2.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639618E16145D0400E58CCA /* libSVGKit-iOS.2.1.0.a */; };
 		55452C0E19EC6EC600B75A30 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639633F16145DDC00E58CCA /* libxml2.dylib */; };
 		61E314DB2B455FDA009BDDBC /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E314DA2B455FDA009BDDBC /* SVGKDefine_Private.h */; };
@@ -991,6 +999,20 @@
 			remoteGlobalIDString = 321EAA612171EC8700640504;
 			remoteInfo = "SVGKitFramework-OSX";
 		};
+		54F283D02C246B9E004B2E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6639618516145D0400E58CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F283C42C246B9D004B2E11;
+			remoteInfo = "SVGKitFramework-WatchOS";
+		};
+		54F283E22C246C62004B2E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6639618516145D0400E58CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825CDAAE1BDA4BC0003C1C12;
+			remoteInfo = "SVGKitFramework-iOS";
+		};
 		55452BF819EC68A200B75A30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6639618516145D0400E58CCA /* Project object */;
@@ -1055,6 +1077,11 @@
 		32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGKExporterNSImage.m; sourceTree = "<group>"; };
 		4FD821EE1AC69F6600E419D3 /* SVGSwitchElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGSwitchElement.h; sourceTree = "<group>"; };
 		4FD821EF1AC69F6600E419D3 /* SVGSwitchElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGSwitchElement.m; sourceTree = "<group>"; };
+		54F283C52C246B9D004B2E11 /* SVGKitFramework_WatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVGKitFramework_WatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F283C72C246B9D004B2E11 /* SVGKitFramework_WatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVGKitFramework_WatchOS.h; sourceTree = "<group>"; };
+		54F283C82C246B9D004B2E11 /* SVGKitFramework_WatchOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SVGKitFramework_WatchOS.docc; sourceTree = "<group>"; };
+		54F283CE2C246B9E004B2E11 /* SVGKitFramework-WatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVGKitFramework-WatchOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F283D32C246B9E004B2E11 /* SVGKitFramework_WatchOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGKitFramework_WatchOSTests.m; sourceTree = "<group>"; };
 		55452BF119EC68A200B75A30 /* SVGKit-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVGKit-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E314DA2B455FDA009BDDBC /* SVGKDefine_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKDefine_Private.h; sourceTree = "<group>"; };
 		660D4FEE1C42927A004187D0 /* C8F542F0-5DE9-3E06-AD55-EFC5E64C6D06.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "C8F542F0-5DE9-3E06-AD55-EFC5E64C6D06.bcsymbolmap"; sourceTree = "<group>"; };
@@ -1337,6 +1364,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54F283C22C246B9D004B2E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F283DE2C246BE7004B2E11 /* libxml2.tbd in Frameworks */,
+				54F283DC2C246BC7004B2E11 /* CoreGraphics.framework in Frameworks */,
+				54F283DD2C246BD0004B2E11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F283CB2C246B9E004B2E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F283E02C246C62004B2E11 /* SVGKit.framework in Frameworks */,
+				54F283CF2C246B9E004B2E11 /* SVGKitFramework_WatchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55452BEE19EC68A200B75A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1436,6 +1482,23 @@
 			path = "SVGKitFramework-OSXTests";
 			sourceTree = "<group>";
 		};
+		54F283C62C246B9D004B2E11 /* SVGKitFramework-WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F283C72C246B9D004B2E11 /* SVGKitFramework_WatchOS.h */,
+				54F283C82C246B9D004B2E11 /* SVGKitFramework_WatchOS.docc */,
+			);
+			path = "SVGKitFramework-WatchOS";
+			sourceTree = "<group>";
+		};
+		54F283D22C246B9E004B2E11 /* SVGKitFramework-WatchOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F283D32C246B9E004B2E11 /* SVGKitFramework_WatchOSTests.m */,
+			);
+			path = "SVGKitFramework-WatchOSTests";
+			sourceTree = "<group>";
+		};
 		61E314D92B455FDA009BDDBC /* privateHeaders */ = {
 			isa = PBXGroup;
 			children = (
@@ -1526,6 +1589,8 @@
 				6639633E16145D7700E58CCA /* EXTERNAL REFERENCES */,
 				66DBE4B81C429FF100A0F0B7 /* SVGKitLibrary */,
 				66DBE4E71C42A0AD00A0F0B7 /* SVGKitFrameworks */,
+				54F283C62C246B9D004B2E11 /* SVGKitFramework-WatchOS */,
+				54F283D22C246B9E004B2E11 /* SVGKitFramework-WatchOSTests */,
 				6639619016145D0400E58CCA /* Frameworks */,
 				6639618F16145D0400E58CCA /* Products */,
 			);
@@ -1542,6 +1607,8 @@
 				825CDADC1BDA4D38003C1C12 /* SVGKitFramework-tvOSTests.xctest */,
 				321EAA622171EC8700640504 /* SVGKit.framework */,
 				32A1F09C21746F4700ABFCE1 /* SVGKitFramework-OSXTests.xctest */,
+				54F283C52C246B9D004B2E11 /* SVGKitFramework_WatchOS.framework */,
+				54F283CE2C246B9E004B2E11 /* SVGKitFramework-WatchOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2117,6 +2184,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54F283C02C246B9D004B2E11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F283D52C246B9E004B2E11 /* SVGKitFramework_WatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6639624616145D3E00E58CCA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2576,6 +2651,43 @@
 			productReference = 32A1F09C21746F4700ABFCE1 /* SVGKitFramework-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		54F283C42C246B9D004B2E11 /* SVGKitFramework-WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F283DA2C246B9E004B2E11 /* Build configuration list for PBXNativeTarget "SVGKitFramework-WatchOS" */;
+			buildPhases = (
+				54F283C02C246B9D004B2E11 /* Headers */,
+				54F283C12C246B9D004B2E11 /* Sources */,
+				54F283C22C246B9D004B2E11 /* Frameworks */,
+				54F283C32C246B9D004B2E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SVGKitFramework-WatchOS";
+			productName = "SVGKitFramework-WatchOS";
+			productReference = 54F283C52C246B9D004B2E11 /* SVGKitFramework_WatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54F283CD2C246B9E004B2E11 /* SVGKitFramework-WatchOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F283DB2C246B9E004B2E11 /* Build configuration list for PBXNativeTarget "SVGKitFramework-WatchOSTests" */;
+			buildPhases = (
+				54F283CA2C246B9E004B2E11 /* Sources */,
+				54F283CB2C246B9E004B2E11 /* Frameworks */,
+				54F283CC2C246B9E004B2E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F283D12C246B9E004B2E11 /* PBXTargetDependency */,
+				54F283E32C246C62004B2E11 /* PBXTargetDependency */,
+			);
+			name = "SVGKitFramework-WatchOSTests";
+			productName = "SVGKitFramework-WatchOSTests";
+			productReference = 54F283CE2C246B9E004B2E11 /* SVGKitFramework-WatchOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		55452BF019EC68A200B75A30 /* SVGKit-iOS Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55452BFC19EC68A200B75A30 /* Build configuration list for PBXNativeTarget "SVGKit-iOS Tests" */;
@@ -2703,6 +2815,16 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
+					54F283C42C246B9D004B2E11 = {
+						CreatedOnToolsVersion = 15.3;
+						DevelopmentTeam = GJ5TGYD682;
+						ProvisioningStyle = Automatic;
+					};
+					54F283CD2C246B9E004B2E11 = {
+						CreatedOnToolsVersion = 15.3;
+						DevelopmentTeam = GJ5TGYD682;
+						ProvisioningStyle = Automatic;
+					};
 					55452BF019EC68A200B75A30 = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -2741,6 +2863,8 @@
 				825CDADB1BDA4D38003C1C12 /* SVGKitFramework-tvOSTests */,
 				321EAA612171EC8700640504 /* SVGKitFramework-OSX */,
 				32A1F09B21746F4700ABFCE1 /* SVGKitFramework-OSXTests */,
+				54F283C42C246B9D004B2E11 /* SVGKitFramework-WatchOS */,
+				54F283CD2C246B9E004B2E11 /* SVGKitFramework-WatchOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2754,6 +2878,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		32A1F09A21746F4700ABFCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F283C32C246B9D004B2E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F283CC2C246B9E004B2E11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2931,6 +3069,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A1F09F21746F4700ABFCE1 /* SVGKitFramework_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F283C12C246B9D004B2E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F283C92C246B9D004B2E11 /* SVGKitFramework_WatchOS.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F283CA2C246B9E004B2E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F283D42C246B9E004B2E11 /* SVGKitFramework_WatchOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3297,6 +3451,16 @@
 			target = 321EAA612171EC8700640504 /* SVGKitFramework-OSX */;
 			targetProxy = 32A1F0A221746F4700ABFCE1 /* PBXContainerItemProxy */;
 		};
+		54F283D12C246B9E004B2E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F283C42C246B9D004B2E11 /* SVGKitFramework-WatchOS */;
+			targetProxy = 54F283D02C246B9E004B2E11 /* PBXContainerItemProxy */;
+		};
+		54F283E32C246C62004B2E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825CDAAE1BDA4BC0003C1C12 /* SVGKitFramework-iOS */;
+			targetProxy = 54F283E22C246C62004B2E11 /* PBXContainerItemProxy */;
+		};
 		55452BF919EC68A200B75A30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6639618D16145D0400E58CCA /* SVGKit-iOS */;
@@ -3514,6 +3678,190 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "SVGKit.SVGKitFramework-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54F283D62C246B9E004B2E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GJ5TGYD682;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 na. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.SVGKitFramework-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		54F283D72C246B9E004B2E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GJ5TGYD682;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 na. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.SVGKitFramework-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		54F283D82C246B9E004B2E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GJ5TGYD682;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.SVGKitFramework-WatchOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		54F283D92C246B9E004B2E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GJ5TGYD682;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.SVGKitFramework-WatchOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;
 		};
@@ -4033,6 +4381,24 @@
 			buildConfigurations = (
 				32A1F0A421746F4700ABFCE1 /* Debug */,
 				32A1F0A521746F4700ABFCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F283DA2C246B9E004B2E11 /* Build configuration list for PBXNativeTarget "SVGKitFramework-WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F283D62C246B9E004B2E11 /* Debug */,
+				54F283D72C246B9E004B2E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F283DB2C246B9E004B2E11 /* Build configuration list for PBXNativeTarget "SVGKitFramework-WatchOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F283D82C246B9E004B2E11 /* Debug */,
+				54F283D92C246B9E004B2E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
